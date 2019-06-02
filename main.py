@@ -542,4 +542,4 @@ async def on_message(message):
             await bot.send_message(message.author, "<@%s>: **What you just said has caught our word filters and has been removed**." % (userID))
 
 # Insert your token here
-bot.run("")
+bot.run(process.env.token)
